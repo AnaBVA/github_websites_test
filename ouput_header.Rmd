@@ -1,0 +1,21 @@
+---
+title: "Change output to github doc"
+output: github_document
+date: "2022-11-30"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## A. Change the output 
+
+We can use `output: github_document` on our header
+
+```{r}
+2+5
+```
+
+
+
+
