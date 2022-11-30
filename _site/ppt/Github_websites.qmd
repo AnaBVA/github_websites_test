@@ -1,0 +1,135 @@
+---
+title: "Hosting websites in Github"
+author: "AnaBVA"
+format: 
+  revealjs:
+    scrollable: true
+    smaller: true
+editor: visual
+---
+
+
+## Webpages
+
+-   Mainly *HTML*
+
+-   CSS
+
+-   Java
+
+-   JavaScript
+
+-   PHP
+
+## HTML
+
+This is a syntax that any browser can interpret
+
+```{.html}
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hola</h1>
+<p>Mi nombre es Ana B.</p>
+</body>
+</html>
+```
+
+
+## Web server
+
+![Figure about web server process](https://www.oreilly.com/api/v2/epubs/9781449355517/files/httpatomoreillycomsourceoreillyimages1416222.png)
+
+## Useful tutorials
+
+-   [Chapter 40.2.4](http://rafalab.dfci.harvard.edu/dsbook/reproducible-projects-with-rstudio-and-r-markdown.html)
+
+-   https://resources.github.com/whitepapers/github-and-rstudio/
+
+-   https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html
+
+-   http://nickstrayer.me/RMarkdown_Sites_tutorial/
+
+-   https://pages.github.com/
+
+-   https://bookdown.org/yihui/blogdown/
+
+## Requirements
+
+-   Github account
+
+-   Github in your computer
+
+-   Rstudio
+
+## Websites using Github
+
+Multiple ways to do publish your work on Github:
+
+A.  [Change the output of your .rmd](https://github.com/AnaBVA/github_websites_test/blob/main/ouput_header.md)
+
+B.  Use *.rmd* and \_site.yml files (Steps explain in next slide)
+
+C.  [Github pages](https://pages.github.com/)
+
+D.  [Blogdown](https://bookdown.org/yihui/blogdown/)
+
+
+
+## Steps
+
+1.  [Create a repository on github]{style="color: green;"}
+
+The website can be seen using:
+
+`http(s)://< username >.github.io/<projectname>`
+
+
+:::{.callout-note}
+Note: If you would like to have your webpage as principal website (e.i. [https://anabva.github.io/]()). *THE REPOSITORY MUST HAVE THIS NAME*
+
+`< username >.github.io`
+:::
+
+
+2.  [Clone your repository in Rstudio]{style="color: green;"}
+
+3.  [Create files]{style="color: green;"}
+
+There are two main files you need to have:
+
+-   *Index.Rmd*: which will have the website
+
+```{.text}
+---
+title: "Home"
+---
+Hello, Website!
+```
+
+
+
+-   *\_site.yml*: meta-information from the website
+
+```{.text}
+name: "my-website"
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+```
+
+
+4.  [Render site]{style="color: green;"}
+
+```{.r}
+rmarkdown::render_site()
+```
+
+It will generate a folder called *\_site.yml*
+
+5.  [Change the *output_dir* from your *\_site.yml*]{style="color: green;"}
+
+
+

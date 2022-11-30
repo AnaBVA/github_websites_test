@@ -1,0 +1,6 @@
+---
+title: "Home"
+---
+Hello, Website!
+
+Slides from our lab [here](ppt/Github_websites.html) 
