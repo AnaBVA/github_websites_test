@@ -44,15 +44,15 @@ This is a syntax that any browser can interpret
 
 -   [Chapter 40.2.4](http://rafalab.dfci.harvard.edu/dsbook/reproducible-projects-with-rstudio-and-r-markdown.html)
 
--   https://resources.github.com/whitepapers/github-and-rstudio/
+-   [whitepapers](https://resources.github.com/whitepapers/github-and-rstudio/)
 
--   https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html
+-   [emilyzabor](https://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html)
 
--   http://nickstrayer.me/RMarkdown_Sites_tutorial/
+-   [nickstrayer](http://nickstrayer.me/RMarkdown_Sites_tutorial/)
 
--   https://pages.github.com/
+-   [Github pages](https://pages.github.com/)
 
--   https://bookdown.org/yihui/blogdown/
+-   [blogdown](https://bookdown.org/yihui/blogdown/)
 
 ## Requirements
 
