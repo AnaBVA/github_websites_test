@@ -131,5 +131,16 @@ It will generate a folder called *\_site.yml*
 
 5.  [Change the *output_dir* from your *\_site.yml*]{style="color: green;"}
 
+*\_site.yml*
+
+```{.text}
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+```
 
 
