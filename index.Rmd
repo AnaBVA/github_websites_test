@@ -4,3 +4,16 @@ title: "Home"
 Hello, Website!
 
 Slides from our lab [here](ppt/Github_websites.html) 
+
+Multiple ways to do publish your work on Github:
+
+A.  [Change the output of your .rmd](https://github.com/AnaBVA/github_websites_test/blob/main/ouput_header.md)
+
+B.  Use *.rmd* and \_site.yml files ([Steps](https://anabva.github.io/github_websites_test/ppt/Github_websites.html#/steps))
+
+C.  [Github pages](https://pages.github.com/)
+
+D.  [Blogdown](https://bookdown.org/yihui/blogdown/)
+
+
+

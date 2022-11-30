@@ -5,3 +5,6 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Tab 1"
+      href: ouput_header.html
+    

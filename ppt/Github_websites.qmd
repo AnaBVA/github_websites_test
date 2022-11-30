@@ -143,4 +143,7 @@ navbar:
       href: index.html
 ```
 
-
+:::{.callout-note}
+Note: Sometimes you need to change your repo setups. 
+![](figs/github_setups.png)
+:::
